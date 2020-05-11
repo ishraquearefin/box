@@ -84,11 +84,11 @@ document.getElementById("box3").onclick=function(){
 	document.getElementById("box1").remove();
 	count+=1
 	document.getElementById("selected").innerHTML="Yellow box selected "
-	document.getElementById("color").innerHTML="Blue box is selected :"+count;
+	document.getElementById("color").innerHTML="Yellow box is selected :"+count;
 		document.getElementById("new1").onclick=function(){
 	count=count+1
 	document.getElementById("selected").innerHTML="Yellow box selected ";
-	document.getElementById("color").innerHTML="Blue box is selected :"+count;
+	document.getElementById("color").innerHTML="Yellow box is selected :"+count;
 	
  }
 
